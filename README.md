@@ -4,18 +4,20 @@ Organic skincare storefront UI with hash-based navigation (works on static hosti
 
 ## Host on GitHub Pages
 
-1. Create a new repository on GitHub and push this folder (or make this folder the repo root).
+1. Create the repository **`Kek`** on GitHub (or use the existing [ebenezergasonoo/Kek](https://github.com/ebenezergasonoo/Kek)) and push this folder as the repo root.
 2. In the repo: **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Select branch **main** (or **master**) and folder **`/` (root)**.
-5. Save. Your site will be at `https://<username>.github.io/<repository>/`.
+5. Save. Your site will be at **[https://ebenezergasonoo.github.io/Kek/](https://ebenezergasonoo.github.io/Kek/)**.
 
 This project includes a **`.nojekyll`** file so GitHub does not run Jekyll on your HTML/CSS/JS.
+
+**GitHub profile:** [github.com/ebenezergasonoo](https://github.com/ebenezergasonoo)
 
 ### URLs
 
 - Open `index.html` or the site root. Navigation uses hashes: `#/home`, `#/products`, `#/cart`, etc.
-- All asset paths are **relative** (`css/`, `js/`), so they resolve correctly under `username.github.io/repo-name/`.
+- All asset paths are **relative** (`css/`, `js/`), so they resolve correctly under `ebenezergasonoo.github.io/Kek/`.
 
 ### Before you go live
 
